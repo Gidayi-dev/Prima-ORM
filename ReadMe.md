@@ -56,9 +56,21 @@ On the .env file edit to your own details (postgres: name, password, localhost, 
  Now on index.js import {prismaClient} from prisma then write your code to create the product ("table values")
  you can check it out on your sql shell
   CRUD OPERATIONS HELPS IN SUCCESS OF THE CODE (index.js) 
-  Examples: 
+  ### CRUD OPERATIONS
+  * Create
+  * Read
+  * Update
+  * Delete
+  Examples of commands used: 
   * findMany()
   * findFirst()
+
+## Relationship
+In Prisma ORM, relationships define how different data models (tables) relate to each other. This allows you to query data across tables efficiently.
+* # One-to-one-relationships
+This is where a record in one table is associated with one and only one record in another table. Think of it like a passport for a person—each person has exactly one passport.
+* # One-to-many relationships
+Here, a single record in one table can be associated with multiple records in another table. Imagine a blog post and its comments. One blog post can have many comments.
   
 
 
