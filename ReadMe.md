@@ -14,7 +14,7 @@ ORM allows developers to interact with databases rather than using sql queries
 
 (package.JSON file fast (```npm init -y```))
  Install prisma
- ```npm install prisma -D``` on cmd or ```npm install prisma --save-dev`` (used this)
+ ```npm install prisma -D``` on cmd or ```npm install prisma --save-dev``` (used this)
 
 prisma uses postgresql by default so setting up the project (database)
 ```npx prisma init``` (contains .schema)
